@@ -13,7 +13,7 @@ const Navbar = () => {
 
       
       <div className={styles.navbarActions}>
-        <Link href="/home">
+        <Link href="https://cafe-explorer-ccpknkhv9-scythe08.vercel.app/">
         <Button variant="secondary">Home</Button>
         </Link>
         <Link href="/menu">
