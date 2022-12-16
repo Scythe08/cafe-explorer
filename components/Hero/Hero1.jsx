@@ -22,10 +22,9 @@ const Hero = ({ heading1, Order, address, first, last, email, message }) => {
       <label for="messafe">{message}</label>
       <input type="text" id="message" name="message" />
       </div>
-
-      <Link href="/homepage" >
-      <button className={styles.Hero}>{Order}</button>
-      </Link>
+      
+      <button className={styles.Hero} variant="secondary"><Link href="/">{Order}</Link></button>
+     
       
       
  
