@@ -13,7 +13,7 @@ const Nav = () => {
 
       
       <div className={styles.navbarActions}>
-        <Link href="/">
+        <Link href="http://home">
         <Button variant="secondary">Home</Button>
         </Link>
       
