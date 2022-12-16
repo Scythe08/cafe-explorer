@@ -1,7 +1,7 @@
 {
   "name": "tupc-4ab2-app",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
   "scripts": {
     "dev": "next dev",
     "build": "CI=''next build",
