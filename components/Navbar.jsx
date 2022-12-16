@@ -13,17 +13,17 @@ const Navbar = () => {
 
       
       <div className={styles.navbarActions}>
-        <Link href="http://localhost:3000">
+        <Link href="">
         <Button variant="secondary">Home</Button>
         </Link>
-        <Link href="http://localhost:3000/menu">
+        <Link href="menu">
         <Button variant="secondary">Menu</Button>
         </Link>
         <Button variant="secondary">About us</Button>
      
         <Button variant="secondary">Contact</Button>
 
-        <Link href="http://localhost:3000/booking">
+        <Link href="booking">
         <Button variant="primary">Book a table</Button>
         </Link>
        
