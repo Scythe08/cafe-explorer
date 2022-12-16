@@ -23,7 +23,7 @@ const Hero = ({ heading1, Order, address, first, last, email, message }) => {
       <input type="text" id="message" name="message" />
       </div>
 
-      <Link href="https://cafe-explorer-ccpknkhv9-scythe08.vercel.app/" >
+      <Link href="/index" >
       <button className={styles.Hero}>{Order}</button>
       </Link>
       
