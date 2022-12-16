@@ -7,7 +7,7 @@ const Hero = ({ heading1, Order, address, }) => {
       <h1>{heading1}</h1>
       <p>{address}</p>
 
-      <Link href="http://localhost:3000/menu" >
+      <Link href="/menu" >
       <button className={styles.Hero}>{Order}</button>
       </Link>
       

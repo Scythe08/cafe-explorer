@@ -23,7 +23,7 @@ const Hero = ({ heading1, Order, address, first, last, email, message }) => {
       <input type="text" id="message" name="message" />
       </div>
 
-      <Link href="http://localhost:3000" >
+      <Link href="/home" >
       <button className={styles.Hero}>{Order}</button>
       </Link>
       
