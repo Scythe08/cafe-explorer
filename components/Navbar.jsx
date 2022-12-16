@@ -13,9 +13,8 @@ const Navbar = () => {
 
       
       <div className={styles.navbarActions}>
-        <button variant="secondary"><Link href="/">Home</Link></button>
         <Link href="/">
-        <Button variant="secondary">Home</Button>
+        <button variant="secondary">Home</button>
         </Link>
         <Link href="/menu">
         <Button variant="secondary">Menu</Button>
